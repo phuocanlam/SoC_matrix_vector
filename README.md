@@ -3,7 +3,8 @@
 ## 1. Specification
 
 Design an IP to calculate the multiplication of a 4x4 matrix and a 4x1 vector. <br>
-Decimal Example:
+Decimal Example:  
+
 $$
 \begin{bmatrix}
 1 & 2 & 3 & 4 \\
@@ -57,7 +58,7 @@ $$
 0xfff2bbe1 \\
 0x0009e680 \\
 \end{bmatrix}
-$$
+$$  
 
 The block diagram shown below describes the architecture which will be applied to the design.
 
