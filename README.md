@@ -5,60 +5,11 @@
 Design an IP to calculate the multiplication of a 4x4 matrix and a 4x1 vector. <br>
 Decimal Example:  
 
-$$
-\begin{bmatrix}
-1 & 2 & 3 & 4 \\
-5 & 6 & 7 & 8 \\
-9 & 10 & 11 & 12 \\
-13 & 14 & 15 & 16 \\
-\end{bmatrix}
-
-\begin{bmatrix}
-1  \\
-2  \\
-3  \\
-4  \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-1*1 + 2*2 + 3*3 + 4*4 \\
-5*1 + 6*2 + 7*3 + 8*4 \\
-9*1 + 10*2 + 11*3 + 12*4 \\
-13*1 + 14*2 + 15*3 + 16*4 \\
-\end{bmatrix}
-= 
-\begin{bmatrix}
-30 \\
-70 \\
-110 \\
-150 \\
-\end{bmatrix}
-$$
+<img src="./images/matrix0.png"/>  <br>
 
 Signed 32-bit Hexadecimal Example:
 
-$$
-\begin{bmatrix}
-0x00000221 & 0x00000376 & 0x0000017b & 0xfffffe71 \\
-0x000001c4 & 0x00000317 & 0x00000124 & 0xfffffea1 \\
-0xfffffffa & 0xfffffdc5 & 0xfffffcc2 & 0xfffffd14 \\
-0x000003d9 & 0x00000224 & 0xfffffde5 & 0x000002a5 \\
-\end{bmatrix}
-*
-\begin{bmatrix}
-0xffffff81 \\
-0x00000133 \\
-0x00000012 \\
-0x0000038d \\
-\end{bmatrix}
-= 
-\begin{bmatrix}
-0xfffdaa06 \\
-0xfffe0a8e \\
-0xfff2bbe1 \\
-0x0009e680 \\
-\end{bmatrix}
-$$  
+<img src="./images/matrix1.png"/>  <br>
 
 The block diagram shown below describes the architecture which will be applied to the design.
 
